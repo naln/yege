@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/nearby/nearby",
+    "pages/index/index",
+    "pages/scan/scan",
+    "pages/share/share",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "洗车小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#999999",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/nearby/nearby",
+        "text": "附近门店"
+      },
+      {
+        "pagePath": "pages/scan/scan",
+        "text": "扫码洗车"
+      },
+      {
+        "pagePath": "pages/share/share",
+        "text": "分享有奖"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+} 

@@ -1,0 +1,9 @@
+.container {
+  padding: 20rpx;
+  padding-top: calc(128rpx + env(safe-area-inset-top));
+  padding-bottom: calc(48rpx + 146rpx);
+}
+
+.mine-content {
+  color: white;
+} 

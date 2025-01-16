@@ -1,0 +1,10 @@
+.container {
+  min-height: 100vh;
+  background-color: rgba(40, 42, 48, 1);
+  padding: 48rpx;
+  padding-top: calc(48rpx + env(safe-area-inset-top));
+}
+
+.store-content {
+  color: white;
+} 

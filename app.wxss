@@ -1,0 +1,20 @@
+/**app.wxss**/
+page {
+  background: rgba(29, 32, 39, 1);
+  --primary-color: rgb(150, 249, 22);
+  --primary-shadow: rgba(150, 249, 22, 0.3);
+}
+
+.theme {
+  --primary-color: rgb(150, 249, 22);
+  --primary-shadow: rgba(150, 249, 22, 0.3);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  color: #fff;
+} 
+

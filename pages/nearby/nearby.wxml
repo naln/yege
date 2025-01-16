@@ -1,0 +1,148 @@
+<view class="container theme">
+  <!-- 头部背景图 -->
+  <image class="header-bg" src="/images/nearby/headerBg.png" mode="aspectFill"/>
+
+  <!-- 网点列表 -->
+  <view class="store-list">
+    <!-- 网点卡片1 -->
+    <view class="store-card">
+      <view class="store-header">
+        <view class="store-title">
+          <text>野阁智能洗车房（万达广场店）</text>
+          <text class="distance">距离：1.2公里</text>
+        </view>
+        <view class="store-notice">
+          <image src="/images/notice.png" class="notice-icon"></image>
+          <text>公告：欢迎使用野阁智能洗车</text>
+        </view>
+      </view>
+
+      <view class="store-info">
+        <image class="store-image" src="/images/nearby/store.png" mode="aspectFill"></image>
+        <view class="info-content">
+          <view class="status-row">
+            <view class="status-item">
+              <image src="/images/nearby/crown.png"></image>
+              <text>工位：2</text>
+            </view>
+            <view class="status-item">
+              <text class="using">使用中：1</text>
+            </view>
+            <view class="status-item">
+              <text class="maintain">维护：0</text>
+            </view>
+          </view>
+          <text class="business-hours">营业时间：24小时</text>
+          <text class="price">收费标准：前10分钟6元 超出 0.5元/分钟</text>
+          <text class="remark">店铺地图位置请核实</text>
+          
+          <!-- 将按钮移到这里 -->
+          <view class="action-buttons">
+            <button class="action-btn contact" bindtap="contactStore">
+              <image src="/images/nearby/phone.png"></image>
+              联系门店
+            </button>
+            <button class="action-btn navigate" bindtap="navigateToStore">
+              <image src="/images/nearby/navigation.png"></image>
+              导航到店
+            </button>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 网点卡片2 -->
+    <view class="store-card">
+      <view class="store-header">
+        <view class="store-title">
+          <text>野阁智能洗车房（恒大名都店）</text>
+          <text class="distance">距离：2.8公里</text>
+        </view>
+        <view class="store-notice">
+          <image src="/images/notice.png" class="notice-icon"></image>
+          <text>公告：本店特惠活动进行中</text>
+        </view>
+      </view>
+
+      <view class="store-info">
+        <image class="store-image" src="/images/nearby/store.png" mode="aspectFill"></image>
+        <view class="info-content">
+          <view class="status-row">
+            <view class="status-item">
+              <image src="/images/nearby/crown.png"></image>
+              <text>工位：3</text>
+            </view>
+            <view class="status-item">
+              <text class="using">使用中：2</text>
+            </view>
+            <view class="status-item">
+              <text class="maintain">维护：0</text>
+            </view>
+          </view>
+          <text class="business-hours">营业时间：24小时</text>
+          <text class="price">收费标准：前10分钟6元 超出 0.5元/分钟</text>
+          <text class="remark">店铺地图位置请核实</text>
+          
+          <!-- 将按钮移到这里 -->
+          <view class="action-buttons">
+            <button class="action-btn contact" bindtap="contactStore">
+              <image src="/images/nearby/phone.png"></image>
+              联系门店
+            </button>
+            <button class="action-btn navigate" bindtap="navigateToStore">
+              <image src="/images/nearby/navigation.png"></image>
+              导航到店
+            </button>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 网点卡片3 -->
+    <view class="store-card">
+      <view class="store-header">
+        <view class="store-title">
+          <text>野阁智能洗车房（龙湖天街店）</text>
+          <text class="distance">距离：3.5公里</text>
+        </view>
+        <view class="store-notice">
+          <image src="/images/notice.png" class="notice-icon"></image>
+          <text>公告：新店开业优惠多多</text>
+        </view>
+      </view>
+
+      <view class="store-info">
+        <image class="store-image" src="/images/nearby/store.png" mode="aspectFill"></image>
+        <view class="info-content">
+          <view class="status-row">
+            <view class="status-item">
+              <image src="/images/nearby/crown.png"></image>
+              <text>工位：4</text>
+            </view>
+            <view class="status-item">
+              <text class="using">使用中：1</text>
+            </view>
+            <view class="status-item">
+              <text class="maintain">维护：1</text>
+            </view>
+          </view>
+          <text class="business-hours">营业时间：24小时</text>
+          <text class="price">收费标准：前10分钟6元 超出 0.5元/分钟</text>
+          <text class="remark">店铺地图位置请核实</text>
+          
+          <!-- 将按钮移到这里 -->
+          <view class="action-buttons">
+            <button class="action-btn contact" bindtap="contactStore">
+              <image src="/images/nearby/phone.png"></image>
+              联系门店
+            </button>
+            <button class="action-btn navigate" bindtap="navigateToStore">
+              <image src="/images/nearby/navigation.png"></image>
+              导航到店
+            </button>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view> 

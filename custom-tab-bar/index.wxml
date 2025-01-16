@@ -1,0 +1,7 @@
+<view class="tab-bar theme">
+  <image class="tab-bar-bg" src="/images/tabbar/daohangBg.png" mode="aspectFill"/>
+  <view wx:for="{{list}}" wx:key="index" class="tab-bar-item {{selected === index ? 'active' : ''}} {{item.isSpecial ? 'special' : ''}}" data-path="{{item.pagePath}}" data-index="{{index}}" data-is-special="{{item.isSpecial}}" bindtap="switchTab">
+    <image class="tab-icon {{item.isSpecial ? 'special-icon' : ''}}" src="{{selected === index ? item.selectedIconPath : item.iconPath}}"></image>
+    <view class="tab-text" style="color: {{selected === index ? selectedColor : color}}">{{item.text}}</view>
+  </view>
+</view> 

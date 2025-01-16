@@ -1,0 +1,74 @@
+<view class="container theme">
+  <!-- 顶部用户信息 -->
+  <view class="user-info">
+    <view class="username-wrap">
+      <text class="username">用户名</text>
+      <text class="welcome">Welcome to YEGE</text>
+    </view>
+    <image class="avatar" src="/images/home/avatar.png"></image>
+  </view>
+
+  <!-- 公告栏 -->
+  <view class="notice">
+    <view class="notice-item">
+      <image class="notice-icon" src="/images/notice.png"></image>
+      <text>公告：</text>
+      <text class="notice-content">客户登录进来自动播放公告内容和语音 播放完公告栏变小</text>
+    </view>
+  </view>
+
+  <view class="card-wrap">
+    <!-- 卡包区域 -->
+    <view class="card-pack">
+      <image class="card-bg" src="/images/home/cardBg.png"></image>
+      <view class="card-content">
+        <view class="card-text">
+          <text class="card-title">我的卡包</text>
+          <text class="card-subtitle">My card pack</text>
+          <text class="card-desc">储蓄卡/次卡/点击查看</text>
+        </view>
+        <button class="recharge-btn">立即充值</button>
+      </view>
+    </view>
+    <!-- 订单与结算 -->
+    <view class="ddyjs">
+      <image class="nz" src="/images/home/nz.png"></image>
+      <text class="ddyjs-text">订单与结算</text>
+    </view>
+  </view>
+
+  <!-- 功能按钮区 -->
+  <view class="function-area">
+    <view class="function-item">
+      <view class="image-wrapper">
+        <image src="/images/home/xcjc.png"></image>
+      </view>
+      <text>洗车教程</text>
+    </view>
+    <view class="function-item">
+      <view class="image-wrapper">
+        <image src="/images/home/bdcp.png"></image>
+      </view>
+      <text>绑定车牌</text>
+    </view>
+    <view class="function-item">
+      <view class="image-wrapper">
+        <image src="/images/home/mkkg.png"></image>
+      </view>
+      <text>门控开关</text>
+    </view>
+    <view class="function-item">
+      <view class="image-wrapper">
+        <image src="/images/home/jmhz.png"></image>
+      </view>
+      <text>加盟合作</text>
+    </view>
+  </view>
+
+  <!-- 团购券入口 -->
+  <view class="group-buy">
+    <image src="/images/home/meituan.png" mode="aspectFit"></image>
+    <image src="/images/home/tiktok.png" mode="aspectFit"></image>
+    <text class="group-buy-text">团购券核销入口</text>
+  </view>
+</view> 
