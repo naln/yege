@@ -1,10 +1,13 @@
 {
   "pages": [
+    "pages/login/login",
+    "pages/mine/mine",
     "pages/nearby/nearby",
     "pages/index/index",
     "pages/scan/scan",
     "pages/share/share",
-    "pages/mine/mine"
+    "pages/store/store",
+    "pages/recharge/recharge"
   ],
   "window": {
     "backgroundTextStyle": "light",

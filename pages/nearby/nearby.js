@@ -54,5 +54,11 @@ Page({
   // 切换地图模式
   switchMapMode() {
     // 实现地图模式切换逻辑
+  },
+
+  goToStoreDetail() {
+    wx.navigateTo({
+      url: '/pages/store/store'
+    })
   }
 }) 

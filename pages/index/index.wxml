@@ -27,7 +27,7 @@
           <text class="card-subtitle">My card pack</text>
           <text class="card-desc">储蓄卡/次卡/点击查看</text>
         </view>
-        <button class="recharge-btn">立即充值</button>
+        <button class="recharge-btn" bindtap="goToRecharge">立即充值</button>
       </view>
     </view>
     <!-- 订单与结算 -->

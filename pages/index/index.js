@@ -22,14 +22,6 @@ Page({
     })
   },
 
-  // 充值按钮点击事件
-  onRecharge() {
-    wx.showToast({
-      title: '充值功能开发中',
-      icon: 'none'
-    })
-  },
-
   // 扫码按钮点击事件
   onScanCode() {
     wx.scanCode({
@@ -39,10 +31,17 @@ Page({
     })
   },
 
+  // 充值按钮点击事件
+  goToRecharge() {
+    wx.navigateTo({
+      url: '/pages/recharge/recharge'
+    })
+  },
+
   onShow() {
     if (typeof this.getTabBar === 'function') {
       this.getTabBar().setData({
-        selected: 0  // index 页面对应的索引是 0
+        selected: 0
       })
     }
   }

@@ -1,0 +1,18 @@
+<view class="container theme">
+  <!-- Logo -->
+  <view class="logo-area">
+    <image class="logo" src="/images/login/logo.png" mode="aspectFit"></image>
+    <text class="slogan">DON'T GIVE UP</text>
+  </view>
+
+  <!-- 按钮区域 -->
+  <view class="button-area">
+    <button class="login-btn" bindtap="onLogin">一键登录</button>
+    <button class="cancel-btn" bindtap="onCancel">取消登录</button>
+  </view>
+
+  <!-- 底部协议 -->
+  <view class="agreement">
+    <text class="agreement-text">登陆使用表示同意<text class="link">《服务条款》</text>《隐私协议》</text>
+  </view>
+</view> 

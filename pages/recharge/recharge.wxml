@@ -1,0 +1,60 @@
+<view class="container theme">
+  <!-- 门店信息 -->
+  <view class="store-content">
+    <view class="store-header">
+      <view class="store-left">
+        <image class="store-image" src="/images/nearby/store.png" mode="aspectFill"></image>
+        <view class="store-info-wrap">
+          <text class="store-title">门店名称</text>
+          <text class="store-address">门店地址：适用门店</text>
+          <text class="store-standard">收费标准：</text>
+        </view>
+      </view>
+      <view class="balance-wrap">
+        <text class="balance-amount">¥ 0.00</text>
+        <text class="balance-label">当前余额</text>
+      </view>
+    </view>
+
+    <!-- 充值卡类型选择 -->
+    <view class="card-type-tabs">
+      <view class="weui-navbar">
+        <view class="weui-navbar__item {{currentTab === 0 ? 'weui-navbar__item_on' : ''}}" bindtap="switchTab" data-tab="0">
+          <view class="weui-navbar__title">储值卡</view>
+        </view>
+        <view class="weui-navbar__item {{currentTab === 1 ? 'weui-navbar__item_on' : ''}}" bindtap="switchTab" data-tab="1">
+          <view class="weui-navbar__title">次卡</view>
+        </view>
+        <view class="weui-navbar__item {{currentTab === 2 ? 'weui-navbar__item_on' : ''}}" bindtap="switchTab" data-tab="2">
+          <view class="weui-navbar__title">月卡</view>
+        </view>
+        <view class="weui-navbar__slider" style="transform: translateX({{currentTab * 100}}%);"></view>
+      </view>
+    </view>
+
+    <!-- 公告 -->
+    <view class="notice">
+      <view class="notice-header">
+        <image class="notice-icon" src="/images/notice2.png"></image>
+        <text class="notice-text">公告：</text>
+      </view>
+      <text>充值余额直接到门店个人账户 平台不收取任何费用</text>
+      <text>洗车金额不能退还 不能转让 仅限本人使用</text>
+      <text>本店支持开具发票 请到门店支持网点开具</text>
+      <text>本店支持开具发票 请到门店支持网点开具</text>
+    </view>
+
+    <!-- 充值卡片 -->
+    <swiper class="recharge-cards" current="{{currentTab}}" bindchange="swiperChange">
+      <swiper-item>
+        <image class="card-item" src="/images/recharge/czk.png" mode="aspectFit"></image>
+      </swiper-item>
+      <swiper-item>
+        <image class="card-item" src="/images/recharge/ck.png" mode="aspectFit"></image>
+      </swiper-item>
+      <swiper-item>
+        <image class="card-item" src="/images/recharge/yk.png" mode="aspectFit"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+</view> 

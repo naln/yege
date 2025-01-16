@@ -1,10 +1,135 @@
 .container {
+  padding: 0;
   min-height: 100vh;
-  background-color: rgba(40, 42, 48, 1);
-  padding: 48rpx;
-  padding-top: calc(48rpx + env(safe-area-inset-top));
+  background: #1D2027;
+}
+
+.header-bg {
+  width: 100vw;
+  height: 360rpx;
+  display: block;
 }
 
 .store-content {
-  color: white;
+  width: 100%;
+  padding: 40rpx;
+  margin-top: -60rpx;
+  background: #1D2027;
+  border-radius: 40rpx 40rpx 0 0;
+  position: relative;
+}
+
+.store-header {
+  margin-bottom: 30rpx;
+}
+
+.store-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.store-title text:first-child {
+  font-size: 36rpx;
+  color: #fff;
+  font-weight: 500;
+}
+
+.distance {
+  font-size: 28rpx;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.store-notice {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 30rpx;
+  padding: 12rpx 24rpx;
+  color: #fff;
+  font-size: 26rpx;
+}
+
+.notice-icon {
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 12rpx;
+}
+
+.store-info {
+  display: flex;
+  gap: 24rpx;
+  margin-bottom: 40rpx;
+}
+
+.store-image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 12rpx;
+  flex-shrink: 0;
+}
+
+.info-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+
+.status-row {
+  display: flex;
+  gap: 24rpx;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 8rpx;
+  color: #fff;
+  font-size: 26rpx;
+}
+
+.status-item image {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.using {
+  color: var(--primary-color);
+}
+
+.maintain {
+  color: #FF6B6B;
+}
+
+.business-hours, .price, .remark {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 26rpx;
+  line-height: 1.4;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 20rpx;
+}
+
+.action-btn {
+  flex: 1;
+  height: 88rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12rpx;
+  border-radius: 44rpx;
+  font-size: 28rpx;
+  border: none;
+  padding: 0;
+  background: var(--primary-color);
+  color: #000;
+}
+
+.action-btn image {
+  width: 32rpx;
+  height: 32rpx;
 } 

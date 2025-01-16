@@ -5,7 +5,7 @@
   <!-- 网点列表 -->
   <view class="store-list">
     <!-- 网点卡片1 -->
-    <view class="store-card">
+    <view class="store-card" bindtap="goToStoreDetail">
       <view class="store-header">
         <view class="store-title">
           <text>野阁智能洗车房（万达广场店）</text>
@@ -52,7 +52,7 @@
     </view>
 
     <!-- 网点卡片2 -->
-    <view class="store-card">
+    <view class="store-card" bindtap="goToStoreDetail">
       <view class="store-header">
         <view class="store-title">
           <text>野阁智能洗车房（恒大名都店）</text>
@@ -99,7 +99,7 @@
     </view>
 
     <!-- 网点卡片3 -->
-    <view class="store-card">
+    <view class="store-card" bindtap="goToStoreDetail">
       <view class="store-header">
         <view class="store-title">
           <text>野阁智能洗车房（龙湖天街店）</text>
