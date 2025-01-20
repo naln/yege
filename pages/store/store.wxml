@@ -1,4 +1,5 @@
 <view class="container theme">
+  <nav-header title="" subtitle=""/>
   <!-- 头部背景图 -->
   <image class="header-bg" src="/images/nearby/headerBg.png" mode="aspectFill"/>
 

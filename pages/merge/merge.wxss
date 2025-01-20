@@ -1,0 +1,43 @@
+.container {
+  padding: 0;
+  min-height: 100vh;
+  background: #1D2027;
+}
+
+.merge-content {
+  padding: 100rpx;
+  padding-top: calc(44px + env(safe-area-inset-top) + 200rpx);
+  box-sizing: border-box;
+}
+
+.tip-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60rpx;
+}
+
+.tip-title {
+  font-size: 28rpx;
+  color: #fff;
+  margin-bottom: 40rpx;
+}
+
+.tip-text {
+  font-size: 26rpx;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin-bottom: 20rpx;
+  line-height: 1.6;
+}
+
+.confirm-btn {
+  margin-top: 200rpx;
+  height: 80rpx;
+  background: var(--primary-color);
+  border-radius: 40rpx;
+  color: #000;
+  font-size: 28rpx;
+  line-height: 80rpx;
+  border: none;
+} 

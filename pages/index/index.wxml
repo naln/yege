@@ -19,7 +19,7 @@
 
   <view class="card-wrap">
     <!-- 卡包区域 -->
-    <view class="card-pack">
+    <view class="card-pack" bindtap="goToCards" data-from="home">
       <image class="card-bg" src="/images/home/cardBg.png"></image>
       <view class="card-content">
         <view class="card-text">
@@ -27,7 +27,7 @@
           <text class="card-subtitle">My card pack</text>
           <text class="card-desc">储蓄卡/次卡/点击查看</text>
         </view>
-        <button class="recharge-btn" bindtap="goToRecharge">立即充值</button>
+        <button class="recharge-btn" catchtap="goToRecharge">立即充值</button>
       </view>
     </view>
     <!-- 订单与结算 -->
@@ -51,7 +51,7 @@
       </view>
       <text>绑定车牌</text>
     </view>
-    <view class="function-item">
+    <view class="function-item" bindtap="goToDoor">
       <view class="image-wrapper">
         <image src="/images/home/mkkg.png"></image>
       </view>
@@ -66,9 +66,9 @@
   </view>
 
   <!-- 团购券入口 -->
-  <view class="group-buy">
-    <image src="/images/home/meituan.png" mode="aspectFit"></image>
-    <image src="/images/home/tiktok.png" mode="aspectFit"></image>
+  <view class="group-buy" bindtap="goToVerify">
+    <image src="/images/meituan.png" mode="aspectFit"></image>
+    <image src="/images/douyin.png" mode="aspectFit"></image>
     <text class="group-buy-text">团购券核销入口</text>
   </view>
 </view> 

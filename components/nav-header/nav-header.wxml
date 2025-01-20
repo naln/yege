@@ -1,0 +1,11 @@
+<view class="nav-header" style="padding-top: {{statusBarHeight}}px">
+  <view class="header-content">
+    <view class="back-btn" bindtap="goBack">
+      <image src="/images/back.png"></image>
+    </view>
+    <view class="title-wrap">
+      <text class="title">{{title}}</text>
+      <text class="subtitle" wx:if="{{subtitle}}">{{subtitle}}</text>
+    </view>
+  </view>
+</view> 

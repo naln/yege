@@ -1,0 +1,15 @@
+<view class="container theme">
+  <nav-header title="卡片合并" subtitle="Balance consolidation"/>
+
+  <view class="merge-content">
+    <!-- 提示文本 -->
+    <view class="tip-section">
+      <text class="tip-title">提示</text>
+      <text class="tip-text">本操作会将您的卡包中不足15元的储值卡与其他的储值卡进行合并</text>
+      <text class="tip-text">合并后的有效期以最高额度储值卡到期为准</text>
+    </view>
+
+    <!-- 确认按钮 -->
+    <button class="confirm-btn" bindtap="onConfirm">确定合并</button>
+  </view>
+</view> 

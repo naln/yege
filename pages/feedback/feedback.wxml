@@ -1,0 +1,48 @@
+<view class="container theme">
+  <nav-header title="意见反馈" subtitle="Feedback/Device Number"/>
+
+  <view class="feedback-content">
+    <!-- 设备编号 -->
+    <view class="input-item">
+      <text class="label">1.设备编号</text>
+      <input class="input" type="text" placeholder="不需要填写" disabled/>
+    </view>
+
+    <!-- 紧急联系电话 -->
+    <view class="input-item">
+      <text class="label">2.填写您的手机号 <text class="required">*</text></text>
+      <input class="input" type="number" placeholder="请输入手机号码" bindinput="onPhoneInput"/>
+    </view>
+
+    <!-- 意见反馈选项 -->
+    <view class="feedback-options">
+      <text class="label">3.意见反馈 <text class="required">*</text></text>
+      <radio-group class="radio-group" bindchange="onOptionChange">
+        <label class="radio-item">
+          <radio value="1" color="#C1FD6A"/>停电
+        </label>
+        <label class="radio-item">
+          <radio value="2" color="#C1FD6A"/>无法扫码
+        </label>
+        <label class="radio-item">
+          <radio value="3" color="#C1FD6A"/>场地需要打扫
+        </label>
+        <label class="radio-item">
+          <radio value="4" color="#C1FD6A"/>高压水枪异常
+        </label>
+        <label class="radio-item">
+          <radio value="5" color="#C1FD6A"/>吸尘器异常
+        </label>
+      </radio-group>
+    </view>
+
+    <!-- 详细建议 -->
+    <view class="input-item">
+      <text class="label">4.请留下您的建议</text>
+      <textarea class="textarea" placeholder="请输入您的建议" bindinput="onSuggestionInput"/>
+    </view>
+
+    <!-- 提交按钮 -->
+    <button class="submit-btn" bindtap="onSubmit">确定提交</button>
+  </view>
+</view> 

@@ -1,0 +1,47 @@
+<view class="container theme">
+  <nav-header title="消费记录" subtitle="Consumption history"/>
+
+  <view class="consumption-content">
+    <!-- Tab菜单 -->
+    <view class="card-type-tabs">
+      <view class="weui-navbar">
+        <view class="tab-item {{currentTab === 0 ? 'active' : ''}}" bindtap="switchTab" data-tab="0">本月</view>
+        <view class="tab-item {{currentTab === 1 ? 'active' : ''}}" bindtap="switchTab" data-tab="1">上个月</view>
+        <view class="tab-item {{currentTab === 2 ? 'active' : ''}}" bindtap="switchTab" data-tab="2">更多</view>
+      </view>
+    </view>
+
+    <!-- 记录列表 -->
+    <view class="record-list">
+      <view class="record-item">
+        <view class="record-info">
+          <text class="label">订单编号：</text>
+          <text class="value">-</text>
+        </view>
+        <view class="record-info">
+          <text class="label">洗车门店：</text>
+          <text class="value">-</text>
+        </view>
+        <view class="record-info">
+          <text class="label">消费金额：</text>
+          <text class="value">-</text>
+        </view>
+        <view class="record-info">
+          <text class="label">卡片类型：</text>
+          <text class="value">-</text>
+        </view>
+        <view class="record-info">
+          <text class="label">开始时间：</text>
+          <text class="value">-</text>
+        </view>
+        <view class="record-info">
+          <text class="label">结束时间：</text>
+          <text class="value">-</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 无数据提示 -->
+    <view class="no-data">这月都没洗过了</view>
+  </view>
+</view> 

@@ -1,0 +1,14 @@
+{
+  "component": true,
+  "usingComponents": {},
+  "properties": {
+    "title": {
+      "type": "String",
+      "value": ""
+    },
+    "subtitle": {
+      "type": "String",
+      "value": ""
+    }
+  }
+} 

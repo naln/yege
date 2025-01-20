@@ -13,6 +13,11 @@
 .store-content {
   width: 100%;
   padding: 40rpx;
+  padding-top: calc(44px + env(safe-area-inset-top) + 80rpx);
+  padding-bottom: calc(40rpx + env(safe-area-inset-bottom));
+  box-sizing: border-box;
+  height: 100vh;
+  overflow-y: auto;
   margin-top: -60rpx;
   background: #1D2027;
   border-radius: 40rpx 40rpx 0 0;

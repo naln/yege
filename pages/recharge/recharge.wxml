@@ -7,6 +7,7 @@
         <view class="store-info-wrap">
           <text class="store-title">门店名称</text>
           <text class="store-address">门店地址：适用门店</text>
+          <text class="store-standard">适用门店：全国通用</text>
           <text class="store-standard">收费标准：</text>
         </view>
       </view>

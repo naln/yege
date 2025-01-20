@@ -1,0 +1,36 @@
+<view class="container theme">
+  <nav-header title="团购核销" subtitle="Group purchase write-off"/>
+
+  <view class="verify-content">
+    <!-- 平台选择 -->
+    <view class="platform-tabs">
+      <view class="platform-item {{platform === 'douyin' ? 'active' : ''}}" bindtap="switchPlatform" data-platform="douyin">
+        <image src="/images/douyin.png"></image>
+        <text>抖音核销</text>
+      </view>
+      <view class="platform-item {{platform === 'meituan' ? 'active' : ''}}" bindtap="switchPlatform" data-platform="meituan">
+        <image src="/images/meituan.png"></image>
+        <text>美团核销</text>
+      </view>
+    </view>
+
+    <!-- 输入框区域 -->
+    <view class="input-section">
+      <text class="input-label">请输入券号或扫码</text>
+      <view class="input-group">
+        <input class="verify-input" type="text"/>
+        <view class="scan-btn" bindtap="scanCode">
+          <image src="/images/tabbar/scan.png"></image>
+        </view>
+      </view>
+      <text class="input-tip">请到门店扫工位二维码 再将核销券号复制到核销框内</text>
+    </view>
+
+    <!-- 提示文本 -->
+    <text class="tip-text">核销完成：您的野阁小程序-我的卡包会有一张卡券 可随时使用</text>
+    <text class="tip-text">使用方法：到门店扫工位二维码-点开始洗车-选中要使用的卡片</text>
+
+    <!-- 确定按钮 -->
+    <button class="confirm-btn" bindtap="onConfirm">确定</button>
+  </view>
+</view> 

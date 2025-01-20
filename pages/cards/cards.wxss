@@ -1,0 +1,157 @@
+.container {
+  padding: 0;
+  min-height: 100vh;
+  background: #1D2027;
+}
+
+.cards-content {
+  padding: 40rpx;
+  padding-top: calc(44px + env(safe-area-inset-top) + 80rpx);
+}
+
+/* Tab样式 */
+.card-type-tabs {
+  margin: 0 -40rpx;
+  
+}
+
+.weui-navbar {
+  display: flex;
+  position: relative;
+  height: 80rpx;
+  width: calc(100vw + 10rpx);
+}
+
+.tab-item {
+  background: rgba(255, 255, 255, 0.1);
+  margin-right: 10rpx;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 28rpx;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.tab-item.active {
+  background: var(--primary-color);
+  color: #000;
+}
+
+.tab-item.active::after {
+  display: none;
+}
+
+/* 卡片列表样式 */
+.cards-list {
+  padding: 40rpx 0;
+}
+
+.card-item {
+  position: relative;
+  height: 240rpx;
+  margin-bottom: 40rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* 卡片头部背景 */
+.card-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 66rpx;
+  background: var(--primary-color);
+  z-index: 1;
+}
+
+.card-content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+  height: 100%;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-type {
+  font-size: 30rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+
+.balance {
+  font-size: 24rpx;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 8rpx;
+}
+
+.amount {
+  font-size: 48rpx;
+  color: #000;
+  font-weight: 500;
+}
+
+.unit {
+  font-size: 24rpx;
+  margin-left: 4rpx;
+}
+
+.store-range {
+  font-size: 18rpx;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: auto;
+}
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 8rpx;
+}
+
+.valid-time {
+  font-size: 20rpx;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.contact-btn {
+  width: 160rpx;
+  height: 42rpx;
+  margin-top: 40rpx;
+  line-height: 42rpx;
+  background: var(--primary-color);
+  border-radius: 24rpx;
+  font-size: 20rpx;
+  color: #000;
+  text-align: center;
+  padding: 0;
+}
+
+.vip-icon {
+  position: absolute;
+  right: 20rpx;
+  top: 0;
+  width: 200rpx;
+  height: 120rpx;
+  margin-top: -28rpx;
+  z-index: 3;
+} 
